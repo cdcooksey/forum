@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+/	node_modules/yarn/lib/v8-compile-cache.js	/^    '\/': 'zS',$/;"	p	class:const
+:	node_modules/yarn/lib/v8-compile-cache.js	/^    ':': 'zC',$/;"	p	class:const
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Forum
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	test/channels/application_cable/connection_test.rb	/^class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCase$/;"	c
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreatePosts	db/migrate/20230402083732_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration[7.0]$/;"	c
+CreateTags	db/migrate/20230402083128_create_tags.rb	/^class CreateTags < ActiveRecord::Migration[7.0]$/;"	c
+CreateUsers	db/migrate/20230402083211_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[7.0]$/;"	c
+Forum	config/application.rb	/^module Forum$/;"	m
+Module	node_modules/yarn/lib/v8-compile-cache.js	/^    Module.prototype._compile = function(content, filename) {$/;"	c
+Post	app/models/post.rb	/^class Post < ApplicationRecord$/;"	c
+PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+PostsControllerTest	test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+PostsTest	test/system/posts_test.rb	/^class PostsTest < ApplicationSystemTestCase$/;"	c
+Tag	app/models/tag.rb	/^class Tag < ApplicationRecord$/;"	c
+TagTest	test/models/tag_test.rb	/^class TagTest < ActiveSupport::TestCase$/;"	c
+TagsController	app/controllers/tags_controller.rb	/^class TagsController < ApplicationController$/;"	c
+TagsControllerTest	test/controllers/tags_controller_test.rb	/^class TagsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+TagsHelper	app/helpers/tags_helper.rb	/^module TagsHelper$/;"	m
+TagsTest	test/system/tags_test.rb	/^class TagsTest < ApplicationSystemTestCase$/;"	c
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionDispatch::IntegrationTest$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersTest	test/system/users_test.rb	/^class UsersTest < ApplicationSystemTestCase$/;"	c
+\	node_modules/yarn/lib/v8-compile-cache.js	/^    '\\\\': 'zB',$/;"	p	class:const
+_compile	node_modules/yarn/lib/v8-compile-cache.js	/^    Module.prototype._compile = function(content, filename) {$/;"	m	class:Module
+_compile	node_modules/yarn/lib/v8-compile-cache.js	/^    Module.prototype._compile = this._previousModuleCompile;$/;"	m	class:uninstall
+_mkdirpSync	node_modules/yarn/lib/v8-compile-cache.js	/^function _mkdirpSync(p, mode) {$/;"	f
+activate_bundler	bin/bundle	/^  def activate_bundler$/;"	f
+activation_error_handling	bin/bundle	/^  def activation_error_handling$/;"	f
+bundler_requirement	bin/bundle	/^  def bundler_requirement$/;"	f
+bundler_requirement_for	bin/bundle	/^  def bundler_requirement_for(version)$/;"	f
+change	db/migrate/20230402083128_create_tags.rb	/^  def change$/;"	f	class:CreateTags
+change	db/migrate/20230402083211_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20230402083732_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+cli_arg_version	bin/bundle	/^  def cli_arg_version$/;"	f
+command_exists	node_modules/yarn/bin/yarn	/^command_exists() {$/;"	f
+compiledWrapper	node_modules/yarn/lib/v8-compile-cache.js	/^    var compiledWrapper = script.runInThisContext({$/;"	v
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+create	app/controllers/tags_controller.rb	/^  def create$/;"	f	class:TagsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
+destroy	app/controllers/tags_controller.rb	/^  def destroy$/;"	f	class:TagsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+edit	app/controllers/tags_controller.rb	/^  def edit$/;"	f	class:TagsController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+env_var_version	bin/bundle	/^  def env_var_version$/;"	f
+gemfile	bin/bundle	/^  def gemfile$/;"	f
+getCacheDir	node_modules/yarn/lib/v8-compile-cache.js	/^function getCacheDir() {$/;"	f
+getParentName	node_modules/yarn/lib/v8-compile-cache.js	/^function getParentName() {$/;"	f
+index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+index	app/controllers/tags_controller.rb	/^  def index$/;"	f	class:TagsController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+invalidationKey	node_modules/yarn/lib/v8-compile-cache.js	/^    var invalidationKey = crypto$/;"	v
+invoked_as_script?	bin/bundle	/^  def invoked_as_script?$/;"	f
+load_bundler!	bin/bundle	/^  def load_bundler!$/;"	f
+lockfile	bin/bundle	/^  def lockfile$/;"	f
+lockfile_version	bin/bundle	/^  def lockfile_version$/;"	f
+majorVer	node_modules/yarn/bin/yarn.js	/^var majorVer = parseInt(ver.split('.')[0], 10);$/;"	v
+mkdirpSync	node_modules/yarn/lib/v8-compile-cache.js	/^function mkdirpSync(p_) {$/;"	f
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+new	app/controllers/tags_controller.rb	/^  def new$/;"	f	class:TagsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+post_params	app/controllers/posts_controller.rb	/^    def post_params$/;"	f	class:PostsController
+push	node_modules/yarn/lib/v8-compile-cache.js	/^    function push(key, invalidationKey, buffer) {$/;"	f
+require	node_modules/yarn/lib/v8-compile-cache.js	/^      function require(id) {$/;"	f	function:function
+require.resolve	node_modules/yarn/lib/v8-compile-cache.js	/^      require.resolve = function(request) {$/;"	f
+set_post	app/controllers/posts_controller.rb	/^    def set_post$/;"	f	class:PostsController
+set_tag	app/controllers/tags_controller.rb	/^    def set_tag$/;"	f	class:TagsController
+set_user	app/controllers/users_controller.rb	/^    def set_user$/;"	f	class:UsersController
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+show	app/controllers/tags_controller.rb	/^  def show$/;"	f	class:TagsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+slashEscape	node_modules/yarn/lib/v8-compile-cache.js	/^function slashEscape(str) {$/;"	f
+supportsCachedData	node_modules/yarn/lib/v8-compile-cache.js	/^function supportsCachedData() {$/;"	f
+system!	bin/setup	/^def system!(*args)$/;"	f
+tag_params	app/controllers/tags_controller.rb	/^    def tag_params$/;"	f	class:TagsController
+uninstall	node_modules/yarn/lib/v8-compile-cache.js	/^  uninstall() {$/;"	c
+update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
+update	app/controllers/tags_controller.rb	/^  def update$/;"	f	class:TagsController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+url	app/javascript/controllers/remote_controller.js	/^  static values = { url: String }$/;"	p	class:from
+user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+ver	node_modules/yarn/bin/yarn.js	/^var ver = process.versions.node;$/;"	v
+x00	node_modules/yarn/lib/v8-compile-cache.js	/^    '\\x00': 'z0',$/;"	p	class:const
+z	node_modules/yarn/lib/v8-compile-cache.js	/^    'z': 'zZ',$/;"	p	class:const

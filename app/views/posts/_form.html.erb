@@ -1,0 +1,58 @@
+<%= form_with(
+  model: post,
+  id: dom_id(post),
+  data: { turbo_frame: dom_id(post) },
+  class: "flex flex-col post-form"
+) do |form| %>
+  <% if post.errors.any? %>
+    <div style="color: red">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+      </svg>
+      <%= pluralize(post.errors.count, "error") %> prohibited this post from being saved
+
+      <ul>
+        <% post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :body, style: "display: block" %>
+    <%= form.text_area :body %>
+  </div>
+
+  <div>
+    <%= form.label :user_id, style: "display: block" %>
+    <%= form.select(
+      :user_id,
+      User.all.map { |user| [user.name, user.id] },
+      include_blank: true
+    ) %>
+  </div>
+
+  <%= content_tag(:div, class: "flex flex-grow") do %>
+    <%= button_tag("Save", type: "submit", class: "btn btn-blue") do %>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    <% end %>
+
+    <% if post.persisted? %>
+      <%= link_to(post_path(post),
+                  class: "btn btn-grey",
+                  data: { turbo_frame: dom_id(@post), turbo_stream: "replace" }) do %>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

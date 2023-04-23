@@ -1,0 +1,16 @@
+<div>
+
+  <p style="color: green"><%= notice %></p>
+
+  <div class="text-base">
+    Posts
+  </div>
+
+  <%= content_tag(:div, id: "posts") do %>
+    <%= turbo_stream_from "posts" %>
+    <%= turbo_frame_tag "posts", class: "post-list" do %>
+      <%= render partial: "posts/post", collection: @posts %>
+    <% end %>
+  <% end %>
+
+</div>
